@@ -1,0 +1,26 @@
+.latestSpending {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.spendingList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.spendingList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.spendingList li:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,55 @@
+.balance-statistics {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.balance-header {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.balance-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.balance-body .balance-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balance-amount {
+  text-align: center;
+}
+
+.balance-amount-value {
+  display: block;
+  font-size: 2.4rem;
+  color: #34333d;
+}
+
+.balance-amount-label {
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4857dc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #303f9f;
+}

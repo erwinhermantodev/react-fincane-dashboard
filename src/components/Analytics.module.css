@@ -1,0 +1,49 @@
+.analytics {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.circleSvg {
+  width: 140px;
+  height: 140px;
+}
+
+.circleBg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 10;
+}
+
+.circle1 {
+  fill: none;
+  stroke: #ff4d4d;
+  stroke-width: 10;
+}
+
+.circle2 {
+  fill: none;
+  stroke: #ffd633;
+  stroke-width: 10;
+}
+
+.circle3 {
+  fill: none;
+  stroke: #4857dc;
+  stroke-width: 10;
+}
+
+.circlePercentage {
+  font-size: 1.5rem;
+  color: #252a41;
+}
+
+.analyticsTitle {
+  color: #252a41;
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}

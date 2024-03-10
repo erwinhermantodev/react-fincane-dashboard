@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.navItems a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navItems a:hover {
+  text-decoration: underline;
+}

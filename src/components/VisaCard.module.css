@@ -1,0 +1,31 @@
+.visaCard {
+  background-color: #4857dc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+
+.visaLogo {
+  font-size: 40px;
+}
+
+.cardDetails {
+  text-align: right;
+}
+
+.cardNumber {
+  margin: 0;
+  font-weight: bold;
+}
+
+.cardHolderName,
+.cardExpiry {
+  margin: 0;
+}

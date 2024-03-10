@@ -1,0 +1,26 @@
+.main-header {
+  background-color: #f6f5fd;
+  padding: 1rem;
+}
+
+.welcome-message h1 {
+  margin: 0;
+  color: #252a41;
+  float: left;
+}
+
+.search-container {
+  float: right;
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  color: #4857dc;
+  cursor: pointer;
+}
+
+.main-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}

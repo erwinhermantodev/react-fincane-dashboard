@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-default: 0, 0, 0;
+  --background-start-default: 214, 219, 220;
+  --background-end-default: 255, 255, 255;
+  --foreground-dark: 255, 255, 255;
+  --background-start-dark: 0, 0, 0;
+  --background-end-dark: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: var(--foreground-dark);
+    --background-start-rgb: var(--background-start-dark);
+    --background-end-rgb: var(--background-end-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: var(--foreground-default);
+    --background-start-rgb: var(--background-start-default);
+    --background-end-rgb: var(--background-end-default);
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f5fd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f6f5fd;
+}
+
+main {
+  flex-grow: 1;
+  margin-left: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-statistics-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

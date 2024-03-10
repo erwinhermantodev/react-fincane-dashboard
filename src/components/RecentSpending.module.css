@@ -1,0 +1,22 @@
+.recent-spending {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.recent-spending ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-spending li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.recent-spending li:last-child {
+  border-bottom: none;
+}
